@@ -21,7 +21,7 @@ a {
 
 *::selection {
   color: #fff;
-  background: purple;
+  background: #9C27B0#6A1B9A;
 }
 
 .disable {
@@ -126,8 +126,8 @@ a {
   top: 0;
   left: 0;
   background: #212121;
-  background: -webkit-linear-gradient(to right, #212121, #424242);
-  background: linear-gradient(to right, #212121, #424242);
+  background: -webkit-linear-gradient(to right, #212121, #6A1B9A);
+  background: linear-gradient(to right, #212121, #6A1B9A);
   opacity: 0.6;
   z-index: 0;
 }
@@ -190,13 +190,13 @@ a {
   margin-top: 2rem;
   display: inline-block;
   padding: 10px 20px;
-  border: 3px solid #212121;
-  color: #212121;
+  border: 3px solid #6A1B9A;
+  color: #6A1B9A;
   transition: all .2s ease;
 }
 
 .white-btn:hover {
-  background: #212121;
+  background:#6A1B9A;
   color: #fff;
 }
 
@@ -245,13 +245,13 @@ a {
   margin-top: 2rem;
   padding: 10px 20px;
   color: #fff;
-  background: #212121;
+  background: #4A148C;
   font-size: 1em;
   letter-spacing: 0.05em;
 }
 
 .shop-btn:hover {
-  background: #424242;
+  background: #6A1B9A;
 }
 
 .merry {
@@ -287,7 +287,7 @@ a {
 }
 
 .slack a {
-  color: #424242;
+  color: #6A1B9A;
   text-decoration: underline;
   transition: all .2s ease;
 }
