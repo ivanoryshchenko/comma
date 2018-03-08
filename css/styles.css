@@ -134,7 +134,7 @@ a {
 
 .hero-vd {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 100%;
@@ -304,13 +304,16 @@ a {
   justify-content: center;
 }
 
+.video-container {
+  max-width: 640px;
+}
+
 .boromir h4 {
   font-size: 2em;
   margin-bottom: 40px;
 }
 
 .boromir p {
-  max-width: 640px;
   margin-top: 2rem;
 }
 
