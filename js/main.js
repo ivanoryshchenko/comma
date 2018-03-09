@@ -1,7 +1,7 @@
 $('.hero').waypoint(function(direction) {
   if (direction == "down") {
-    $('.cta').show();
+    $('.sticky-menu').addClass('gym');
   } else if (direction == "up") {
-    $('.cta').hide();
+    $('.sticky-menu').removeClass('gym');
   }
 });

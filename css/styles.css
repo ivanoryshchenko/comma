@@ -48,7 +48,7 @@ a {
 }
 
 .nazgul {
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   position: absolute;
   top: 0;
@@ -98,10 +98,14 @@ a {
   color: rgba(255, 255, 255, 0.6)
 }
 
-.cta {
+.sticky-menu {
   display: none;
+}
+
+.gym {
+  display: flex;
   width: 100%;
-  padding: 1rem 40px;
+  padding: 1rem 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,11 +116,11 @@ a {
   box-shadow: 0 5px 10px rgba(10, 12, 15, .15);
 }
 
-.cta .shop-btn {
+.gym .shop-btn {
   margin: 0;
 }
 
-.gandlalf {
+.gandalf{
   display: flex;
   align-items: center;
   padding: 0 80px;
@@ -131,7 +135,7 @@ a {
   /* box-shadow: 0 16px 32px rgba(50,50,93,.2), 0 4px 16px rgba(0,0,0,.2); */
 }
 
-.gandlalf::after {
+.gandalf::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -501,12 +505,6 @@ a {
   font-weight: bold;
 }
 
-.cabana {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
 .frodo {
   padding: 20px 80px;
   background: #EEEEEE;
@@ -522,6 +520,10 @@ a {
 
 .frodo p {
   margin-right: 2rem;
+}
+
+.frodo p:last-child {
+  margin-right: 0;
 }
 
 .frodo a {
@@ -544,6 +546,10 @@ a {
   height: 24px;
   width: 24px;
   transition: all .2s ease;
+}
+
+.social a:first-child {
+  margin-left: 0;
 }
 
 .social a:hover {
@@ -631,7 +637,110 @@ a {
   .sam {
     display: none;
   }
+  .subscribe-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .subscribe-block p {
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
 }
+
+@media screen and (min-width: 1024px) {
+  .gym {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn-container .btn {
+    width: 100%;
+  }
+  .btn-container .white-btn:last-child {
+    margin-left: 0;
+  }
+  .hero {
+    width: 100%;
+  }
+  .gandalf, .wrapper, .pippin  {
+    padding: 0 40px !important;
+  }
+  .video-container {
+    padding: 0;
+  }
+  .video-container p {
+    padding: 0 40px;
+  }
+  .video-container h4 {
+    padding: 0 40px;
+  }
+   .nazgul {
+    padding: 2rem 40px;
+  }
+  .updates {
+    padding: 160px 40px;
+  }
+  .legolas {
+    margin: 80px 40px;
+  }
+  .frodo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .frodo .block {
+    margin-bottom: 1rem;
+  }
+  .gym {
+    padding: 1rem 40px;
+  }
+  .subscribe {
+    flex-direction: column;
+  }
+  .subscribe .btn {
+    margin-top: 1rem;
+  }
+  .slack {
+    padding: 80px 40px;
+  }
+  .merry {
+    padding: 40px;
+  }
+  .frodo {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    padding: 0;
+    margin-bottom: 80px !important;
+  }
+  .explanation, .gate {
+    padding-top: 80px;
+  }
+  .chain {
+    margin-top: 80px;
+  }
+  .subscribe * {
+    width: 100%;
+  }
+
+}
+
 
 /* .video-btn {
   margin-left: 20px;
