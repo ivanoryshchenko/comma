@@ -45,6 +45,7 @@ a {
   border: none;
   outline: none;
   background: none;
+  border-radius: 4px;
 }
 
 .nazgul {
