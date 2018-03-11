@@ -676,25 +676,25 @@ a {
     width: 100%;
   }
   .gandalf, .wrapper, .pippin  {
-    padding: 0 40px !important;
+    padding: 0 2rem !important;
   }
   .video-container {
     padding: 0;
   }
   .video-container p {
-    padding: 0 40px;
+    padding: 0 2rem;
   }
   .video-container h4 {
-    padding: 0 40px;
+    padding: 0 2rem;
   }
    .nazgul {
-    padding: 2rem 40px;
+    padding: 2rem 2rem;
   }
   .updates {
-    padding: 160px 40px;
+    padding: 160px 2rem;
   }
   .legolas {
-    margin: 80px 40px;
+    margin: 80px 2rem;
   }
   .frodo {
     flex-direction: column;
@@ -702,7 +702,7 @@ a {
     text-align: center;
   }
   .gym {
-    padding: 1rem 40px;
+    padding: 1rem 2rem;
   }
   .subscribe {
     flex-direction: column;
@@ -711,10 +711,10 @@ a {
     margin-top: 1rem;
   }
   .slack {
-    padding: 80px 40px;
+    padding: 80px 2rem;
   }
   .merry {
-    padding: 40px;
+    padding: 2rem;
   }
   .frodo {
     padding: 20px;
@@ -938,7 +938,7 @@ sup {
 
 @media screen and (max-width: 768px) {
   .shop-container {
-    padding: 40px;
+    padding: 2rem;
   }
   .shop-menu {
     padding: 1rem 40px;
